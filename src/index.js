@@ -1,4 +1,4 @@
 import './Styles/styles.scss'
-import initializeWebsite from './WebsiteContent'  
+import initializeWebsite from './WebSiteContent'  
 
 initializeWebsite()
