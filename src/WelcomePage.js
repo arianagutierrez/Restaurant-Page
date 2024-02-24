@@ -113,6 +113,7 @@ function BackgroundTransition() {
         // Removes the temporary div after the END of the transition to show the welcomePage with the same current Image
         setTimeout(() => {
             welcomePage.style.backgroundImage = `url('${images[currentIndex]}')`
+            welcomePage.style.backgroundAttachment = 'fixed'
             transitionBg.remove()
         }, 5000)
 
